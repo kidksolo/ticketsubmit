@@ -1,0 +1,63 @@
+/* Body styles with gradient background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #9cecfd, #4B0082);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles for the form */
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white; /* White background for the container */
+}
+
+/* Form styles with rounded edges */
+form {
+    display: grid;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+/* Button styles with gradient grey background */
+input[type="submit"],
+input[type="reset"],
+a.button {
+    padding: 10px; 
+    background: linear-gradient(to bottom, #ccc, #999); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: inline-block; /* Add display property for proper styling */
+    text-decoration: none; /* Remove underlines for link-styled button */
+}
+
+/* Add a thin curved edge black border to all text boxes */
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+/* Styling for the h2 element */
+h2 {
+    color: #4B0082; /* Set the color to your preference */
+    text-align: center;
+}
+
+/* Hover effect for buttons and links */
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+a.button:hover {
+    background: #606060; /* Darker grey on hover */
+}
